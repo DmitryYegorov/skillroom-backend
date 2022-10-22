@@ -6,6 +6,11 @@ const app_module_1 = require("./app.module");
 async function bootstrap() {
     const app = await core_1.NestFactory.createMicroservice(app_module_1.AppModule, {
         transport: microservices_1.Transport.KAFKA,
+        options: {
+            client: {
+                brokers: ['localhost:9092'],
+            },
+        }
     });
     await app.listen();
 }

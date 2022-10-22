@@ -19,6 +19,7 @@
     "homepage": "https://github.com/DmitryYegorov/skill-room-backend#readme",
     "dependencies": {},
     "devDependencies": {
-        "pm2": "^5.2.2"
+        "pm2": "^5.2.2",
+        "prettier": "^2.7.1"
     }
 }

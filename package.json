@@ -1,25 +1,26 @@
 {
-    "name": "skillroom-backend",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "pm2:start": "pm2 start ecosystem.config.js",
-        "pm2:watch": "pm2 start ecosystem.config.js --watch"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/DmitryYegorov/skill-room-backend.git"
-    },
-    "author": "Dmitry Yegorov <dmitrii.egorow2014@yandex.ru>",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/DmitryYegorov/skill-room-backend/issues"
-    },
-    "homepage": "https://github.com/DmitryYegorov/skill-room-backend#readme",
-    "dependencies": {},
-    "devDependencies": {
-        "pm2": "^5.2.2",
-        "prettier": "^2.7.1"
-    }
+  "name": "skillroom-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:watch": "pm2 start ecosystem.config.js --watch",
+    "format": "rush prettier"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitryYegorov/skill-room-backend.git"
+  },
+  "author": "Dmitry Yegorov <dmitrii.egorow2014@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitryYegorov/skill-room-backend/issues"
+  },
+  "homepage": "https://github.com/DmitryYegorov/skill-room-backend#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "pm2": "^5.2.2",
+    "prettier": "^2.7.1"
+  }
 }
